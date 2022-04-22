@@ -1,0 +1,19 @@
+@import url(@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+:root {
+    --primary: #9E00FF;
+    --secundary: #D4F8F8;
+    --secundary-dark: #8EFEED;
+    --third: #0000;
+    --third-light: #ffff;
+}
+header {
+    display:flex;
+}
