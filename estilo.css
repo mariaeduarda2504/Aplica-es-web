@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;900&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+:root {
+    --primary: #9E00FF;
+    --secundary: #D4F8F8;
+    --secundary-dark: #8EFEED;
+    --black: #0000;
+    --white: #ffff;
+}
+header {
+    display:flex;
+    border-bottom: 0.5rem solid var(--primary);
+    margin-bottom: 30px;
+}
+header picture img {
+    height: 5rem;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+header nav ul li {
+    margin: 0 1.5rem;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--white);
+}
+main{
+    min-height: 70vh;
+}
+footer {
+    background-color: var(--primary);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    margin: none;
+}
+.content {
+  width: 100%;
+  max-width: 1370px;
+  margin: 0 auto;
+}
+main picture img {
+    margin-top: 5rem;
+    height: 75%;
+    width: 40%;
+  }
+  .card {
+    background-color: var(--black);
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+  }
+  .card > h4 {
+    margin-bottom: 0.5rem;
+  }
+  body {
+    background-color: #000;
+    }
+main section aside h4 {
+    font-size: 3rem;
+    color: var(--white);
+}
+h4 { 
+    text-align: center;
+    margin-bottom: 100px;
+}
+main section aside h4.login.html {
+    font-size: 3rem;
+    color: var(--white);
+}
+h4 { 
+    text-align: center;
+    margin-bottom: 100px;
+}
+input[type=text] {
+    border: 2px solid (--primary);
+    border-radius: 4px;
+  }
