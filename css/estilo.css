@@ -17,7 +17,7 @@
 header {
     display:flex;
     border-bottom: 0.5rem solid var(--primary);
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 header picture img {
     height: 5rem;
@@ -52,7 +52,7 @@ footer {
 }
 .content {
   width: 100%;
-  max-width: 1372px;
+  max-width: 1370px;
   margin: 0 auto;
 }
 main picture img {
@@ -72,9 +72,22 @@ main picture img {
     background-color: #000;
     }
 main section aside h4 {
-    font-size: 1.2rem;
+    font-size: 3rem;
     color: var(--white);
 }
-h4 { text-align: center }
-
-
+h4 { 
+    text-align: center;
+    margin-bottom: 100px;
+}
+main section aside h4.login.html {
+    font-size: 3rem;
+    color: var(--white);
+}
+h4 { 
+    text-align: center;
+    margin-bottom: 100px;
+}
+input[type=text] {
+    border: 2px solid (--primary);
+    border-radius: 4px;
+  }
